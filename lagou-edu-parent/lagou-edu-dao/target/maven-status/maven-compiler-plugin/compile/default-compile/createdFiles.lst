@@ -1,1 +1,4 @@
+com\lagou\mapper\CourseCommentDao.class
+com\lagou\mapper\CourseDao.class
+com\lagou\mapper\OrderDao.class
 com\lagou\mapper\UserDao.class

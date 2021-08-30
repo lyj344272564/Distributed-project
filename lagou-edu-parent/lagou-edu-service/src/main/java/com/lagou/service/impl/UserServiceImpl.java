@@ -23,4 +23,12 @@ class UserServiceImpl implements UserService {
     public User login(String phone, String password) {
         return userDao.login(phone,password);
     }
+
+    public Integer checkPhone(String phone) {
+        return userDao.checkPhone(phone);
+    }
+
+    public Integer register(String phone, String password) {
+        return userDao.register(phone,password);
+    }
 }

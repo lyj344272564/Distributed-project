@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [30/Aug/2021:11:29:33 +0800] "GET / HTTP/1.1" 200 337 http-bio-8002-exec-1 63
+0:0:0:0:0:0:0:1 - - [30/Aug/2021:11:29:56 +0800] "GET /course/getAllCourse HTTP/1.1" 200 24583 http-bio-8002-exec-3 2071
+0:0:0:0:0:0:0:1 - - [30/Aug/2021:11:31:34 +0800] "GET /course/getCourseByUserId/100030011 HTTP/1.1" 200 2 http-bio-8002-exec-5 27
+0:0:0:0:0:0:0:1 - - [30/Aug/2021:11:31:42 +0800] "GET /course/getCourseByUserId/100030017 HTTP/1.1" 200 2 http-bio-8002-exec-7 10
+0:0:0:0:0:0:0:1 - - [30/Aug/2021:11:33:50 +0800] "GET /course/getCourseByUserId/100030018 HTTP/1.1" 200 7909 http-bio-8002-exec-9 27
+0:0:0:0:0:0:0:1 - - [30/Aug/2021:11:35:56 +0800] "GET /course/getCourseById/100030018 HTTP/1.1" 200 - http-bio-8002-exec-3 38
+0:0:0:0:0:0:0:1 - - [30/Aug/2021:11:36:08 +0800] "GET /course/getCourseById/100030011 HTTP/1.1" 200 - http-bio-8002-exec-4 11
+0:0:0:0:0:0:0:1 - - [30/Aug/2021:11:36:40 +0800] "GET /course/getCourseById/7 HTTP/1.1" 200 7907 http-bio-8002-exec-4 22

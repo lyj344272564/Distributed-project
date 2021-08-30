@@ -21,4 +21,17 @@ public class TestUser {
         System.out.println(user);
     }
 
+    @Test
+    public void checkPhone() {
+        Integer integer = userService.checkPhone("110");
+        System.out.println(integer);
+    }
+//    @Test
+//    public void register() {
+//
+//        Integer integer = userService.register("1144", "123");
+//        System.out.println(integer);
+//
+//    }
+
 }

@@ -23,5 +23,20 @@ public interface UserDao {
     */
    User login(@Param("phone") String phone, @Param("password") String password);
 
+   /**
+    * 检查手机号是否注册
+    * @param phone
+    * @return 0 未注册   1 已注册
+    */
+   Integer checkPhone(String phone);
+
+   /**
+    * 用户注册
+    * @param phone
+    * @param password
+    * @return
+    */
+   Integer register(@Param("phone") String phone, @Param("password") String password);
+
 }
 

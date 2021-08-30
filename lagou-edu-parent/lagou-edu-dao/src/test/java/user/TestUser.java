@@ -21,4 +21,17 @@ public class TestUser {
         System.out.println(user);
     }
 
+    @Test
+    public void checkPhone() {
+        Integer integer = userDao.checkPhone("1101");
+        System.out.println(integer);
+    }
+
+//    @Test
+//    public void register() {
+//        Integer integer = userDao.register("1144", "123");
+//        System.out.println(integer);
+//
+//
+//    }
 }
